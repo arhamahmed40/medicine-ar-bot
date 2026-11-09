@@ -14,6 +14,7 @@
 <div id="fallback">Point the camera at a <a href="https://raw.githubusercontent.com/AR-js-org/AR.js/master/data/images/hiro.png" target="_blank" rel="noopener">Hiro marker</a>. Use HTTPS and allow camera access.</div>
 <a-scene embedded vr-mode-ui="enabled:false" arjs="sourceType:webcam;debugUIEnabled:false;trackingMethod:best;" renderer="logarithmicDepthBuffer:true;antialias:true">
 <a-marker preset="hiro" id="marker">
+<a-box position="0 0.02 0" width="0.5" height="0.04" depth="0.5" color="red"></a-box>
 <a-entity id="mascot" position="0 0.18 0" scale="0.25 0.25 0.25">
 <!-- Brown beaver body and flat paddle tail -->
 <a-sphere position="0 -0.02 0" scale="0.31 0.41 0.24" color="#805038"></a-sphere>
