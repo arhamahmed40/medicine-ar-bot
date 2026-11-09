@@ -1,0 +1,1 @@
+Beaver Doctor AR starter. Upload index.html and knowledge.js to GitHub Pages. mascot-reference.png is a visual reference only; the AR model is a simplified procedural 3D beaver doctor. A faithful 3D model matching the reference requires separate modelling and a GLB asset. Camera needs HTTPS and Hiro marker. Voice recognition depends on browser support.
